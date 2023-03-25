@@ -2,15 +2,15 @@
 	// When enabled, sends a message to players around the portal that the nether is spreading and that you can stop the spread with 'preventSpreadBlockAmountNeeded' of the 'preventSpreadBlockString' block.
 	"sendMessageOnPortalCreation": true,
 	// The message sent on portal creation.
-	"messageOnPortalCreation": "You feel a corrupted energy coming from the portal. The nether will slowly spread into the overworld unless %preventSpreadBlockAmountNeeded% %preventSpreadBlockString% are placed within a %portalSpreadRadius% block radius around the portal.",
+	"messageOnPortalCreation": "Вы чувствуете порочную энергию, исходящую из портала. Ад будет медленно распространяться в окружающий мир, если %preventSpreadBlockAmountNeeded% %preventSpreadBlockString% не будут размещены в радиусе %portalSpreadRadius% блоков вокруг портала..",
 	// When enabled, sends a message to players around the portal that the nether spread has stopped when the portal detects new 'preventSpreadBlockString' blocks.
 	"sendMessageOnPreventSpreadBlocksFound": true,
 	// The message sent on preventspread blocks found.
-	"messageOnPreventSpreadBlocksFound": "With enough %preventSpreadBlockString% placed, you feel the corrupted energy fade.",
+	"messageOnPreventSpreadBlocksFound": "При достаточном количестве %preventSpreadBlockString% вы почувствуете, что испорченная энергия исчезает.",
 	// When enabled, sends a message to players around the portal when it is broken.
 	"sendMessageOnPortalBroken": true,
 	// The message sent when a portal is broken.
-	"messageOnPortalBroken": "With the nether portal broken, the corrupted energy is no longer able to enter the overworld.",
+	"messageOnPortalBroken": "Когда портал в ад разрушен, испорченная энергия больше не может проникнуть в поверхностный мир.",
 	// When enabled, shows the portal coordinates in portal messages.
 	"prefixPortalCoordsInMessage": true,
 	// The radius around the portal to which the nether blocks can spread.
@@ -18,7 +18,7 @@
 	"portalSpreadRadius": 30,
 	// The delay in ticks in between the spread around the nether portal. 20 ticks = 1 second.
 	// min: 1, max: 72000
-	"spreadDelayTicks": 40,
+	"spreadDelayTicks": 120,
 	// The amount of blocks that are instantly converted to a nether block around a portal when it is detected. If there are existing nether blocks within the radius, their count is substracted from this number.
 	// min: 0, max: 1000
 	"instantConvertAmount": 50,
@@ -26,7 +26,7 @@
 	"preventSpreadWithBlock": true,
 	// The amount of prevent-spread-blocks (defined) needed within the radius of the nether portal to prevent spread.
 	// min: 1, max: 100
-	"preventSpreadBlockAmountNeeded": 4,
+	"preventSpreadBlockAmountNeeded": 12,
 	// The block which prevents the nether portal from spreading. By default a coal block (minecraft:coal_block is the namespace ID).
-	"preventSpreadBlockString": "minecraft:coal_block"
+	"preventSpreadBlockString": "minecraft:iron_block"
 }
