@@ -26,6 +26,11 @@
 			cactus = true
 			cactus_extra = true
 
+		[types.wood_type.ad_astra]
+			aeronos = true
+			strophar = true
+			glacian = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.biomesoplenty]
@@ -57,6 +62,9 @@
 			red_blossom = true
 			ancient = true
 
+		[types.leaves_type.ad_astra]
+			glacian = true
+
 [entries]
 
 	[entries.wood_type]
@@ -81,6 +89,7 @@
 			glass_door = true
 			stable_door = true
 			modern_door = true
+			bamboo_door = true
 
 		[entries.wood_type.create]
 			window = true
@@ -97,6 +106,7 @@
 			chest = true
 			stripped_post = true
 			ladder = true
+			hollow_log = true
 
 		[entries.wood_type.decorative_blocks]
 			beam = true
@@ -137,6 +147,11 @@
 			kitchen_sink_light = true
 			stripped_coffee_table = true
 			stripped_crate = true
+			stripped_upgraded_fence = true
+			stripped_upgraded_gate = true
+
+		[entries.wood_type.handcrafted]
+			chair = true
 
 	[entries.leaves_type]
 
